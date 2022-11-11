@@ -1,0 +1,41 @@
+#home {
+    height: 100%;
+    background: url(../img/marquinhos.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.bg-img img {
+    width: 85%;
+}
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+    margin: 5px 15px;
+}
+
+/* Fonte navegação */
+
+.fonte-nav {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.fonte-nav li a{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.titulo-principal {
+    width: 400px;
+    font-weight: 700;
+    font-size: 2em;
+    color: #000;
+    text-transform: uppercase;
+}
