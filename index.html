@@ -27,24 +27,31 @@
                 </a>
 
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                    <i class="fas fa-bars"></i>
+                    <i class="fa-sharp fa-solid fa-bars text-white"></i>
                 </button>
 
                 <div class="collapse navbar-collapse" id="nav-principal">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item ml-3 mr-3">
                             <a href="#" class="nav-link">Home</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Produtos</a>
+                        <li class="nav-item dropdown ml-3 mr-3">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">Produtos</a>
+                                <div class="dropdown-content">
+                                    <a href="#" class="dropdown-item">Masculino</a>
+                                    <a href="#" class="dropdown-item">Feminino</a>
+                                    <a href="#" class="dropdown-item">Infantil</a>
+                                </div>
+                            </div>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item ml-3 mr-3">
                             <a href="#" class="nav-link">Sobre</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item ml-3 mr-3">
                             <a href="#" class="nav-link">Contato</a>
                         </li>
                     </ul>
@@ -54,8 +61,52 @@
         </nav>
     </header>
    
+    <section id="home" class="d-flex"> <!--Home-->
+        <div class="container-fluid align-self-center"> <!--Container-->
+            <div class="row"> <!--row-->
+                <div class="col-md-12 capa">  <!--Grid-->
+
+                    <div id="carousel-inicial" class="carousel slide" data-ride="carousel"> <!--Carousel-->
+                        <div class="carousel-inner"> <!--Inner-->
+                            <div class="carousel-item active"> <!--Primeiro Slide-->
+                                <h3>A Copa já começou!</h3>
+                                <a href="#" class="btn btn-custom btn-roxo">
+                                    Conheça nossos produtos
+                                </a>
+                            </div>  <!--Primeiro Slide-->
+                        </div> <!--Inner-->
+
+                        <div> <!--Controles-->
+                            <a href="#carousel-inicial" class="carousel-control-prev" data-slide="prev">
+                                <i class="fas fa-angle-left fa-3x"></i>
+                            </a>
+
+                            <a href="#carousel-inicial" class="carousel-control-next" data-slide="next">
+                                <i class="fas fa-angle-right fa-3x"></i>
+                            </a>
+
+                        </div> <!--Controles-->
+                    </div> <!--Carousel-->
+
+                </div> <!--Grid-->
+            </div> <!--row-->
+        </div> <!--Container-->
+    </section> <!--Home-->
+
+    <!--Area de conteudos-->
+
+    <section id="conteudos" class="caixa"> <!--Conteudos-->
+        <div class="container"> <!--container-->
+            <div class="row"> <!--row-->
+                <div class="col-md-3">
+                    
+                </div>
+            </div> <!--row-->
+        </div> <!--container-->
+    </section> <!--Conteudos-->
 
 
+    <!--Area de conteudos-->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

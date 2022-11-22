@@ -1,3 +1,13 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet&display=swap');
+
+/* Formatações geral */
+
+header a{
+    font-family: 'Rubik', sans-serif ;
+}
+
 html, body, #home {
     height: 100%;
     overflow-x: hidden;
@@ -28,3 +38,124 @@ nav.navbar-transparente {
     color: rgba(0,0,0,0.5);
     border-color: rgba(255,255,255,0.6);
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: rgb(234, 234, 2341,0.5);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Capa */
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: #fff;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -o-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: #fff;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+/* Tipografia */
+
+h1 {
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #FFF;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+#home h3, #home a{
+    font-family: 'Rubik';
+}
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h3 {
+        font-size: 2em;
+    }
+    .btn-custom {
+        margin: 10px 15px;
+    }
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h3 {
+        font-size: 3em;
+    }
+    .btn-custom {
+        margin: 10px 15px;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h3 {
+        font-size: 4em;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h3 {
+        font-size: 5em;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    h3 {
+        font-size: 6em;
+    }
+ }
