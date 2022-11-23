@@ -1,5 +1,4 @@
 /* Google Fonts */
-
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet&display=swap');
 
 /* Formatações geral */
@@ -14,7 +13,7 @@ html, body, #home {
 }
 
 body {
-    background: linear-gradient(1deg, #1c1c1c,#000);
+    background: linear-gradient(to bottom, #ececec,#fff);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,10 +22,11 @@ body {
 
 nav.navbar-transparente {
     padding: 15px 0px;
+    background: #ececec;
 }  
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -36,13 +36,13 @@ nav.navbar-transparente {
 
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,0.5);
-    border-color: rgba(255,255,255,0.6);
+    border-color: rgba(0,0,0,0.4);
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background: white;
+    background: #fff;
     min-width: 160px;
     z-index: 1;
 }
@@ -60,6 +60,13 @@ nav.navbar-transparente {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.divisor {
+    width: 1px;
+    background: #000;
+    margin: 12px 15px;
+}
+
 /* Capa */
 
 .capa {
@@ -77,12 +84,29 @@ nav.navbar-transparente {
     padding: 10px 20px;
 }
 
-.btn-roxo {
-    background: #7c25f8;
+.btn-outline-custom {
+    color: #000;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -o-border-radius: 500px;
+    text-transform: uppercase;
+    padding: 10px 20px;
 }
 
-.btn-roxo:hover {
-    background: #6207e3;
+.btn-outline-custom:hover{
+    background: #000;
+    color: #ececec;
+}
+
+.btn-preto {
+    background: #000;
+}
+
+.btn-preto:hover {
+    background: #292929;
     color: #fff;
 }
 
@@ -107,13 +131,18 @@ h2 {
 
 h3 {
     font-size: 2em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-    color: #fff;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: #000;
 }
 
 #home h3, #home a{
     font-family: 'Rubik';
+}
+
+#conteudos h5, #conteudos p {
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 /* Media Queries */
@@ -143,6 +172,10 @@ h3 {
 @media (min-width: 768px) and (max-width: 991.98px) { 
     h3 {
         font-size: 4em;
+    }
+
+    #brasil {
+        background: url(https://imgnike-a.akamaihd.net/branding/home-sbf/t…mobile/tout-selecao-brasileira-2022-v3-mobile.jpg);
     }
  }
 
