@@ -18,6 +18,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
 /* Barra de navegação */
 
 nav.navbar-transparente {
@@ -140,10 +144,24 @@ h3 {
     font-family: 'Rubik';
 }
 
-#conteudos h5, #conteudos p {
+#conteudos a {
+    color: #000;
+}
+
+#conteudos h5{
     font-size: 0.8em;
     font-weight: bold;
 }
+
+#conteudos p {
+    margin: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(17, 17, 17);
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
 
 /* Media Queries */
 
