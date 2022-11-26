@@ -165,6 +165,7 @@ h3 {
 /* Footer */
 
 footer {
+    margin-top: 36px;
     background: #000;
     padding: 50px 0px 20px 0px;
     position: relative;
@@ -194,9 +195,8 @@ footer .navbar-nav a {
 }
 
 footer .navbar-nav a:hover {
-    color: #9bf0e1;
+    color: #757575;
     text-decoration: none;
-    font-size: 0.9em;
 }
 
 footer ul {
